@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: #ffffffff;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+
+        }
+        header ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            list-style-type: none;
+        }
+        header ul li a{
+            text-decoration: none;
+            color: #222;
+            transition: 0.9s;
+        }
+        header ul li a :hover{
+            color: lightblue;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+        header ul li button{
+            border: none;
+            min-width: 100px;
+            padding: 8px;
+            background-color: lightblue;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/06/Starbucks_Corporation_Logo_2011.svg-e1657703028844.png?auto=format&q=60&fit=max&w=930" style="width: 50px; height: 50px;" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sevices</a></li>
+            <li><a href="#">Blogss</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button>Login</button></li>
+
+        </ul>
+    </header>
+    <br>
+    <center>
+        <h1>Navigation Bars</h1>
+    </center>
+</body>
+</html>
